@@ -16,9 +16,9 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.TO_GITEE  }}
         with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: git@github.com:HCY2315/python-base.git
+          source-repo: git@github.com:HCY2315/python-web.git
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@gitee.com:hcy_2315/python-base.git
+          destination-repo: git@gitee.com:hcy_2315/python-web.git
           # 启用后，强制同步，即强制覆盖目的端仓库
           force_update: true
           # 启用后会显示所有执行命令
